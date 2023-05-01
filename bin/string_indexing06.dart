@@ -8,5 +8,11 @@ String func(String s) {
         str: answer
     """;
   //your code here
-  return '';
+    int n = s.length - 1;
+  String x = s[0];
+  return x + s[n];
 }
+void main(){
+  print(func('Sultonbek'));
+}
+  

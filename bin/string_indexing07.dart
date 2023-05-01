@@ -8,5 +8,17 @@ String func(String s, int n) {
         str: answer
     """;
   //your code here
-  return '';
+   int i = 0;
+  int x = s.length;
+  while (i <= x){
+    if (i == n){
+      return s[n];
+    }
+    i ++;
+  }
+  return s;
 }
+void main(){
+  print(func('Sultonbek', 1));
+}
+  

@@ -7,5 +7,10 @@ String func(String s) {
         str: answer
     """;
   //your code here
-  return '';
-}
+  String str=s[0] + s[1] + s[2];
+  return str;
+  }
+  void main() {
+    print(func("Sultonbek"));
+  }
+  

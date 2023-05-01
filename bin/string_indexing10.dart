@@ -8,6 +8,18 @@ int func(String s) {
         int: answer
     """;
   //your code here
-
-  return -1;
+  int i = 0;
+  int n = s.length;
+  int x = 0;
+  while (i < n){
+    if (s[1]=='0'||s[i]=='1'||s[i]=='2'||s[i]=='3'||s[i]=='4'||s[i]=='5'||s[i]=='6'||s[i]=='7'||s[i]=='8'||s[i]=='9'){
+      x = x + 1;
+    }
+    i++;
+  }
+  return x; 
 }
+void main(){
+  print(func('Sultan_774'));
+}
+  

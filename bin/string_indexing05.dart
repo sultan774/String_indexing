@@ -8,5 +8,18 @@ String func(String s) {
         str: answer
     """;
   //your code here
-  return '';
+   int x = s.length ~/ 2;
+  int n = s.length;
+  String a = "";
+  if (n % 2 == 1){
+    a = s[x];
+  } else {
+    a = s[x - 1] + s[x];
+  }
+  return a;
 }
+void main(){
+  print(func('Sulthnbek'));
+}
+ 
+

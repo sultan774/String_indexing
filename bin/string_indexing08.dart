@@ -8,5 +8,17 @@ int func(String s) {
         int: answer
     """;
   //your code here
-  return -1;
+  int i = 0;
+  int n = s.length;
+  while (i < n){
+    if (s[i] == '*'){
+     return i;
+    }
+    i ++;
+  }
+  return 0;
 }
+void main(){
+  print(func('Sultooonbek'));
+}
+  
