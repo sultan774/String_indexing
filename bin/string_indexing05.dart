@@ -19,7 +19,7 @@ String func(String s) {
   return a;
 }
 void main(){
-  print(func('Sulthnbek'));
+  print(func('Sultonbek'));
 }
  
 
